@@ -84,6 +84,10 @@
     margin: .5rem;
     padding: 1rem;
     border-radius: 1rem;
+    background-image: url(../img/watermark-pokeball.png);
+    object-fit: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .pokemon .number {
@@ -137,13 +141,25 @@
 }
 
 .pagination button {
+    cursor: pointer;
     padding: .25rem .5rem;
     margin: .25rem 0;
+    border: 2px solid #000;
+    border-radius: 5px;
     font-size: .625rem;
     color: #fff;
-    background-color: #6c79db;
-    border: none;
-    border-radius: 1rem;
+    background-color: #444;
+    box-shadow: -2px 3px 0 #222, -4px 6px 0 #000;
+    transition: 1s ease;
+}
+
+.pagination button:hover {
+    box-shadow: inset -3px 6px 0 #222;
+}
+
+.pagination button:active {
+    box-shadow: inset -4px 4px 0 #222;
+    font-size: 0.9rem;
 }
 
 @media screen and (min-width: 380px) {
