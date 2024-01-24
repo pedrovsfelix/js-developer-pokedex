@@ -85,7 +85,7 @@
     padding: 1rem;
     border-radius: 1rem;
     background-image: url(../img/watermark-pokeball.png);
-    object-fit: cover;
+    background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
 }

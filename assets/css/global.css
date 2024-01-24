@@ -5,6 +5,8 @@
 
 body {
     background-color: #f6f8fc;
+    position: relative;
+    height: 100vh;
 }
 
 .content {

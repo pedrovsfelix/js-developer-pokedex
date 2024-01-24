@@ -1,0 +1,108 @@
+.pop-up {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+
+.pokeup {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: .5rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    background-image: url(../img/watermark-pokeball.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    gap: 10px;
+}
+
+.pokeup .name {
+    text-transform: capitalize;
+    font-size: 1.4rem;
+    color: #fff;
+}
+
+.pokeup .number {
+    color: #000;
+    opacity: .3;
+    text-align: right;
+    font-size: .625rem;
+}
+
+.pokemon img {
+    max-width: 200px;
+    max-height: 200px;
+}
+
+
+.exit {
+    background-color: #030303;
+    font-size: 1rem;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    float: right;
+    justify-content: space-evenly;
+
+}
+
+#data {
+    background-color: #cfcfcf;
+}
+
+#stats {
+    font-size: 0.8rem;
+}
+
+.stat-bar {
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+}
+
+.stat-bar p {
+    border-radius: 5px;
+    padding: 0.6rem;
+    box-shadow: 1px #242323;
+    background-color: #181818;
+}
+
+#hability {
+    display: flex;
+    justify-content: space-around;
+    font-size: 0.7rem;
+    color: #cfcfcf;
+}
+
+.stat-desc {
+    color: rgb;
+    text-align: center;
+    border-right: .5px solid;
+    text-transform: uppercase;
+}
+
+.stat-desc p {
+    border-radius: 2px;
+    color: #000;
+    background-color: white;
+
+}
+
+.bar-inner {
+
+    border-radius: 4px;
+    padding-left: 0.6rem;
+    color: #000;
+}
+
+.bar-inner p {
+    padding: 0.01rem;
+    border-radius: 2px;
+    color: #000;
+    background-color: #ffffff;
+}
