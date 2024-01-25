@@ -7,7 +7,7 @@ let offset = 0;
 
 function convertPokemonToLi(pokemon) {
     return `
-        <li class="pokemon ${pokemon.type}" onClick="getPokemon(${pokemon.number})">
+        <li class="pokemon ${pokemon.type}" onclick="getPokemon(${pokemon.number})">
             <span class="number">#${pokemon.number}</span>
             <span class="name">${pokemon.name}</span>
 
@@ -63,12 +63,12 @@ const popUp = (pokemon) => {
     const img = pokemon.sprites.other.dream_world.front_default;
     const htmlString = `
     
-    <div class="pop-up">
+    <div class="pop-up" id="popup">
         <div class="pokemon-detail ${pokemon.type}">
-            <a class="exit" id="exit"> x </a>
+            <a class="exit" id="exit" onClick="exitPopup()">x</a>
             <li class="pokeup ${pokemon.type}">
                 <span class="name">${pokemon.name}</span>
-                <span class="number">${pokemon.number}</span>
+                <span class="number">#${pokemon.number}</span>
                 <div class="detail">
                     <ol class="types">
                         ${pokemon.types.map((type) => `<li class="type ${type}">${type}</li>`).join('')}
@@ -100,6 +100,6 @@ const popUp = (pokemon) => {
 }
 
 const exitPopup = () => {
-    const popup = document.getElementsById('exit');
+    const popup = document.getElementById('popup');
     popup.parentElement.removeChild(popup);
 }

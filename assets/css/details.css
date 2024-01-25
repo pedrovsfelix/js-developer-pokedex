@@ -6,6 +6,16 @@
     z-index: 1;
 }
 
+.pokemon-detail {
+    position: relative;
+}
+
+.exit {
+    position: absolute;
+    top: 10px;
+    right: 10px
+}
+
 .pokeup {
     display: flex;
     flex-direction: column;
@@ -34,7 +44,7 @@
     font-size: .625rem;
 }
 
-.pokemon img {
+.pokeup img {
     max-width: 200px;
     max-height: 200px;
 }
@@ -42,13 +52,10 @@
 
 .exit {
     background-color: #030303;
-    font-size: 1rem;
+    font-size: 1.4rem;
     color: #ffffff;
-    border: none;
     cursor: pointer;
-    float: right;
-    justify-content: space-evenly;
-
+    padding: 5px 10px;
 }
 
 #data {
