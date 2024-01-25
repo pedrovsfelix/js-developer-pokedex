@@ -25,17 +25,17 @@ Antes de começar, verifique se você atendeu aos seguintes requisitos:
 - Possuí um editor de texto `<Visual Studio Code / Sublime / etc>`. 
 - Possuí a extensão `<Live Server>`.
 
-## ☕ Usando Pokédex-App
+## ☕ Usando Trilha JS Developer - Pokedex
 
 Para usar PokéDex-App, siga estas etapas:
 
 ```
-$ git clone https://github.com/pedrovsfelix/pokedex-app.git
+$ git clone https://github.com/pedrovsfelix/js-developer-pokedex.git
 ```
 
 Adicione comandos de execução e exemplos que você acha que os usuários acharão úteis. Fornece uma referência de opções para pontos de bônus!
 
-## 📫 Contribuindo para Pokédex-App
+## 📫 Contribuindo para Trilha JS Developer - Pokedex
 
 Para contribuir com Spider-Man, siga estas etapas:
 
